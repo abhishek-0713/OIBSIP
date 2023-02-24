@@ -9,8 +9,8 @@ public class Bank {
         this.users = new ArrayList<>();
         this.currentUser = null;
         // add some initial test users
-        users.add(new User("1234", "1111", "John", "Doe", 1000.0));
-        users.add(new User("5678", "2222", "Jane", "Smith", 500.0));
+        users.add(new User("123", "1111", "Abhi", "Patil", 1000.0));
+        users.add(new User("1234", "2222", "Abhishek", "Patil", 500.0));
     }
 
     public boolean authenticateUser(String userID, String userPIN) {
