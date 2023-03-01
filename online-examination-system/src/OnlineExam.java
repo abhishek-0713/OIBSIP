@@ -131,7 +131,7 @@ class OnlineExam extends JFrame implements ActionListener {
             "Identify the infinite loop?",
             "When is the finalize() method called?",
             "What is the implicit return type of constructor?",
-            "Which of the following is true about Java interfaces?"
+            "Which keyword is used to declare an interface in java?"
     };
     String[][] choices = {
             { "M.P.Java","charles Babbage", "James Gosling", "Pascal"},
@@ -143,9 +143,9 @@ class OnlineExam extends JFrame implements ActionListener {
             {"for(;;)", "for()i=0;j<1;i--", "for(int=0;i++)", "All of the above"},
             {"Before garbage collection", "Before an object goes out of scope", "Before a variable goes out of scope", "None"},
             {"No return type", "A class object in which it is defined", "void", "None"},
-            {"They can be instantiated.", "They can have constructors.", "They can have method implementations.", "They can extend other classes."}
+            {"class", "interface", "implements", "abstract"}
     };
-    int[] answers = {1, 3, 2, 0, 2, 1, 1, 0, 1, 1};
+    int[] answers = {2, 3, 2, 3, 0, 1, 1, 0, 1, 1};
 
     // Refactor the set() method to use the arrays
     void set() {

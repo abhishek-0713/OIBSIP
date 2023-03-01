@@ -10,7 +10,7 @@ public class Main {
         try {
 
             Login form = new Login();
-            form.setSize(420, 140);
+            form.setSize(420, 240);
             form.setVisible(true);
         }
         catch(Exception e) {
